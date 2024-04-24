@@ -2,7 +2,7 @@
 
 Este README proporciona instrucciones detalladas para instalar dependencias y ejecutar los siguientes scripts de Python:
 
-1. Script para descargar videos de YouTube y extraer transcripciones.
+1. Script para extraer transcripciones.
 2. Script para eliminar archivos corruptos y descargar videos de YouTube utilizando yt-dlp.
 3. Script para convertir archivos JSON de transcripciones de YouTube a archivos CSV.
 
@@ -32,7 +32,7 @@ No se requieren dependencias adicionales, ya que el script utiliza bibliotecas e
 
 ## 3. Ejecutar los Scripts
 
-### Script 1: Descargar Videos de YouTube y Extraer Transcripciones
+### Script 1: Extracción de transcripciones
 
 Ejecuta el siguiente comando en tu terminal o símbolo del sistema:
 
