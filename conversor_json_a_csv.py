@@ -4,8 +4,8 @@ import pandas as pd
 import os
 
 
-directorio_json = "E:/subtitulos/json/"#Directorio de archivos json
-directorio_csv = "E:/subtitulos/csv/"#Directorio de archivos csv
+directorio_json = ""#Directorio de archivos json
+directorio_csv = ""#Directorio de archivos csv
 """
 directorio_json = "/Volumes/Untitled/subtitulos/json/"#Directorio de archivos json
 directorio_csv = "/Volumes/Untitled/subtitulos/csv/"#Directorio de archivos csv

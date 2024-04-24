@@ -3,7 +3,7 @@ import os
 def descarga(youtube_url):
     try:
         archivos = []
-        directorio =  'F:\PowerRoom\media\mananera'
+        directorio =  ''#Directorio para guardado de videos 
         contenido = os.listdir(directorio)
         
         for file in contenido:

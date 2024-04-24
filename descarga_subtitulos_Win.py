@@ -14,7 +14,7 @@ json_name = []
 mp4_name = []
 
 
-directorio = "E:/PowerRoom/presidente/json/"
+directorio = ""#directorio para guardado de subtitulos
 links_lista = []
 prefijo_youtube = 'https://www.youtube.com/watch?v='
 def obtener_lista(url):
@@ -59,7 +59,7 @@ def obtener_lista(url):
                     
                 except Exception as e:
                     continue
-            df.to_csv('D:/POWER ROOM/transcripciones/relacion_media.csv', index=False)
+            df.to_csv('', index=False)
             
         else:
             print("Error")

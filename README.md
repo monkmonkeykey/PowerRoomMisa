@@ -6,6 +6,7 @@ Este README proporciona instrucciones detalladas para instalar dependencias y ej
 2. Script para eliminar archivos corruptos y descargar videos de YouTube utilizando yt-dlp.
 3. Script para convertir archivos JSON de transcripciones de YouTube a archivos CSV.
 
+NOTA: Es importante reemplazar los directorios en donde se guardarán las transcripciones y los videos dentro de los scripts. 
 ## 1. Instalación de Python
 
 Si aún no tienes Python instalado en tu sistema, puedes descargarlo e instalarlo desde [python.org](https://www.python.org/downloads/).
