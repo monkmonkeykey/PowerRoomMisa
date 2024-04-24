@@ -40,8 +40,6 @@ Ejecuta el siguiente comando en tu terminal o símbolo del sistema:
 python descarga_subtitulos_Win.py
 ```
 
-Reemplaza `descarga_subtitulos_Win.py` con el nombre de tu archivo de código.
-
 ### Script 2: Eliminar Archivos Corruptos y Descargar Videos de YouTube
 
 Asegúrate de haber instalado yt-dlp siguiendo las instrucciones proporcionadas anteriormente. Luego, ejecuta el siguiente comando:
@@ -50,7 +48,6 @@ Asegúrate de haber instalado yt-dlp siguiendo las instrucciones proporcionadas 
 python descarga_mananeras.py
 ```
 
-Reemplaza `descarga_mananeras.py` con el nombre de tu archivo de código.
 
 ### Script 3: Convertir Archivos JSON a CSV
 
@@ -60,7 +57,6 @@ Ejecuta el siguiente comando para convertir archivos JSON a CSV:
 python conversor_json_a_csv.py
 ```
 
-Reemplaza `conversor_json_a_csv.py` con el nombre de tu archivo de código.
 
 ---
 
