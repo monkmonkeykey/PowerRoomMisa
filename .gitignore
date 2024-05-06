@@ -1,0 +1,56 @@
+# Archivos de proyecto específicos
+_videos/
+csv_json/csv/
+csv_json/json/
+Backup/
+server/csv/*.csv
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+backup.*
+*.autosave
+/cache
+derivative.log
+
+# Archivos de salida y temporales
+/out
+/temp
+/tmp
+/export
+
+# Carpetas específicas de TouchDesigner que podrían contener archivos generados o temporales
+/compiled
+/generated
+
+# Ignore config files that may contain sensitive information
+*.conf
+
+# ---------- SERVER PYTHON
+# Byte-compiled / optimized / DLL files
+server/__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
