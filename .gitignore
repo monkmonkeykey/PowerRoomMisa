@@ -3,7 +3,9 @@ _videos/
 csv_json/csv/
 csv_json/json/
 Backup/
+data/config/
 server/csv/*.csv
+tests/
 
 # Sistema operativo
 .DS_Store
