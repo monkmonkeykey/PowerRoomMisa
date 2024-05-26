@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify
-import my_search_module  # Importa el módulo de búsqueda
+# import my_search_module  # Importa el módulo de búsqueda
+import search_module_v2
 
 app = Flask(__name__)
 
@@ -8,7 +9,7 @@ def search():
     query = request.args.get('query')
     if not query:
         return jsonify({"status": "Error", "message": "No search query provided"}), 400
-    results = my_search_module.search(query)
+    results = search_module_v2.search(query)
     return jsonify(results)
 
 if __name__ == '__main__':
